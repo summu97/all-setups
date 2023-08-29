@@ -10,7 +10,7 @@ chmod 777 sonarqube-8.9.6.50800 -R
 su - sonar
 
 #run this on server manually
-#cd /opt/sonarqube-8.9.6.50800/bin/linux/
+#cd /opt/sonarqube-8.9.6.50800/bin/linux-x86-64/
 #sh sonar.sh start
 #sh sonar.sh status
 
