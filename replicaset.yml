@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: nginx
+        image: summu97/paytmmovies:v1
