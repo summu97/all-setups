@@ -9,6 +9,7 @@ sudo mv prometheus-2.43.0.linux-amd64/console_libraries /etc/prometheus
 ls /etc/prometheus
 sudo rm -rvf prometheus-2.43.0.linux-amd64*
 
+#if you have any workers go to below path and add their ip's and names and also add them in targets block with "public_ip:9100"
 #sudo vim /etc/hosts
 #3.101.56.72  worker-1
 #54.193.223.22 worker-2
