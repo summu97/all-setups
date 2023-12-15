@@ -9,3 +9,5 @@ sed -i '56d' apache-tomcat-9.0.83/conf/tomcat-users.xml
 sed -i '21d' apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
 sed -i '22d'  apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
 sh apache-tomcat-9.0.83/bin/startup.sh
+#STEP-1: INSTALLING GIT JAVA-1.8.0 MAVEN 
+yum install git java-1.8.0-openjdk maven -y
